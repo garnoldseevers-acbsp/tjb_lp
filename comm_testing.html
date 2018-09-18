@@ -1,0 +1,298 @@
+<!-- scoped internal css for page-level style adjustments via CMS -->
+<style type="text/css" scoped>
+    /* Non-Member Page Adjustments */
+    #right{
+        display: none !important;
+    }
+    div#left{
+        width: 100% !important;
+    }
+    /* General Styles */
+    #tjb_lp h1, 
+    #tjb_lp h2, 
+    #tjb_lp h3, 
+    #tjb_lp h4, 
+    #tjb_lp h5 {
+        margin: 10px 0 25px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    #tjb_lp p{
+        margin-bottom: 25px;
+    }
+    #tjb_lp img{
+        max-width: 100%;
+    }
+    /* Sections */
+    #tjb_lp .lp_section{
+        max-width: 100%;
+        margin-bottom: 25px;
+        padding-top: 25px;
+        border-top-style: solid;
+        border-width: 1px;
+        border-color: #eeeeee;
+    }
+    /* High Priority Button */
+    #tjb_lp .hp-btn {
+        max-width: 300px;
+        background: #003478 none repeat scroll 0 0;
+        color:#fff;
+        opacity: 1;
+        transition: all 200ms linear 0s;
+        font-family: 'Montserrat', sans-serif;
+        height:54px;
+        text-align:center;
+        line-height:54px;
+        display:block;
+    }
+    #tjb_lp .hp-btn:hover {
+        background: #f47525;
+        color:#fff;
+    }
+    /* Journal Cover Thumbnails */
+    #tjb_lp .lp_cover_thumbnail,
+    #tjb_lp .lp_cover_thumbnail em{
+        display: block;
+        text-align: center;
+    }
+    #tjb_lp .lp_cover_thumbnail img{
+        display: block;
+        max-width: 100px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #777777;
+        transition: border-color .5s;
+        -webkit-transition: border-color .5s;
+    }
+    #tjb_lp .lp_cover_thumbnail:hover > img{
+        border-color: #003478;
+    }
+    /* Bulleted List */
+    #tjb_lp ul.lp_bulleted-list{
+        list-style: disc;
+        margin-left: 15px;
+        margin-bottom: 25px;
+        max-width: 480px;
+    }
+    #tjb_lp .lp_bulleted-list li{
+        margin-bottom: 15px;
+    }
+    #tjb_lp .lp_articles li{
+        font-size: 12px;
+        color: #44607b;
+    }
+    #tjb_lp .lp_articles li em{
+        font-size: 14px;
+        display: block;
+        color: #304457;
+    }
+    /* Disclaimer */
+    #tjb_lp .lp_disclaimer{
+        margin-bottom: 25px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #ff6319;
+        padding: 15px;
+        color: #bf4a13;
+        background-color: rgba(255,99,25,.15);
+    }
+    #tjb_lp .lp_disclaimer strong{
+        color: #bf4a13;
+    }
+    /* Mobile Breakpoint */
+    @media screen and (max-width: 768px){
+        #tjb_lp img{
+            display: block;
+            margin: 0 auto 25px auto;
+        }
+    }
+    /* Desktop Breakpoint */
+    @media screen and (min-width: 768px){
+        /* Column Dividers */
+        #tjb_lp .row.vertical-divider [class*='col-']:not(:last-child):after {
+            background: #e0e0e0;
+            width: 1px;
+            content: "";
+            display:block;
+            position: absolute;
+            top:0;
+            bottom: 0;
+            right: 0;
+            min-height: 70px;
+        }
+        /* Vertical Indentation */
+        #tjb_lp .tab-down-desktop{
+            margin-top: 35px;
+        }
+    }
+</style>
+<div id="tjb_lp">
+    <!-- Featured Image -->
+    <div class="container lp_section">
+        <div class="row">
+            <div class="col-sm-12">
+                <img src="/resource/resmgr/images/tjb/tjb_slide.jpg" alt="The Transnational Journal of Business - A Scholarly Journal of the Accreditation Council for Business Schools and Programs" class="img img-responsive" style="margin: 0px auto 15px auto;">
+            </div><!-- /.column -->
+        </div><!-- /.row -->
+    </div><!-- /.section -->
+
+    <!-- Value Proposition -->
+    <div class="container lp_section">
+        <div class="row">
+            <div class="col-sm-12">
+                <h3 style="display: block; max-width: 550px; margin: 0 auto; text-align: center; line-height: 150%; font-weight: normal;">ACBSP was the first accrediting body for business schools to support scholarly research by publishing a peer-reviewed journal.</h3>
+            </div><!-- /.column -->
+        </div><!-- /.row -->
+    </div><!-- /.section -->
+
+    <!-- Current Volume -->
+    <div class="container lp_section">
+        <div class="row">
+            <div class="col-sm-12">
+                <h3><em>Transnational Journal of Business</em> — Volume 03</h3>
+                <p>
+                    The ACBSP Scholar-Practitioner Publications Committee is proud to announce the release of the third issue of The Transnational Journal of Business. The five articles selected underwent an extensive peer-reviewed process before being accepted for publication. They include:
+                </p>
+            </div><!-- /.column -->
+        </div><!-- /.row -->
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="/resource/resmgr/images/tjb/tjb_v03_cover.jpg" style="max-width: 100%" alt="cover of the Transnational Journal of Business" class="tab-down-desktop">
+            </div><!-- /.column -->
+            <div class="col-sm-8">
+                <ul class="lp_bulleted-list lp_articles">
+                    <li>
+                        <em>Are They Ready for the Real World? A Survey of What Employers Value and What They Find Lacking in Recent College Graduates</em> — Don Goeltz, Jan Buzydlowski, Bernice Purcell, and J. Barry Dickinson</li>
+                    <li>
+                        <em>Record Graduate Growth Rates through Faculty Led Recruitment and Retention Strategies: A Case Study</em> — Harold Ray Griffin, PhD and Alla Adams, PhD, CHFP, MHA
+                    </li>
+                    <li>
+                        <em>The Impact of an Adaptive Learning Technology on Student Performance in an Introductory-Level Business Course</em> — Dr. Jack Babinchak, William Habacivch, and Benjamin Lipschutz
+                    </li>
+                    <li>
+                        <em>Student-Managed Investment Funds: A Survey of Student Demographics, Fund Policies, and Transparency</em> — Christopher Kubik
+                    </li>
+                    <li>
+                        <em>From the Transnational to the BoP Approach to Global Strategy: Opportunities and Challenges</em> — Kevin Schneider
+                    </li>
+                </ul>
+            </div><!-- /.column -->
+        </div><!-- /.row -->
+        <div class="row">
+            <div class="col-sm-12">
+                <p>
+                    Thank you to Liberty University School of Business for their sponsorship of the <em>TJB</em>.
+                </p>
+            </div><!-- /.column -->
+        </div><!-- /.row -->
+    </div><!-- /.section -->
+
+    <!-- Call for Papers -->
+    <div class="container lp_section">
+        <div class="row">
+            <div class="col-sm-12">
+                <h3><em>Transnational Journal of Business</em>— Call for Papers</h3>
+            </div><!-- /.column -->
+            <div class="col-sm-12">
+                <p>
+                    The Journal solicits papers through an <a href="/members/group_content_view.asp?group=143359&id=603348">Open Call for Papers format</a>.
+                </p>
+                <p>
+                    However, it includes an emphasis on the current theme of the upcoming ACBSP Conference. For 2019, the theme is, <em>The Art of Developing Entrepreneurial Leaders</em>. 
+                </p>
+                <p class="lp_disclaimer">
+                    <strong>December 15</strong> is the deadline to submit a paper for consideration in Vol. 4, published in June 2019.
+                </p>
+            </div><!-- /.column -->
+            <div class="col-sm-12">
+                <a href="https://app.scholasticahq.com/journals/tjb/manuscripts/new" class="hp-btn">Submit Your Paper</a>
+            </div><!-- /.column -->
+        </div><!-- /.row -->
+    </div><!-- /.section -->
+
+    <!-- Managing Editor -->
+    <div class="container lp_section">
+        <div class="row">
+            <div class="col-sm-12">
+            </div><!-- /.column -->
+        </div><!-- /.row -->
+        <div class="row">
+            <div class="col-sm-8">
+                <h3 class="tab-down-desktop">Dr. Justin C. Matus, Managing Editor</h3>
+                <p>
+                    <strong>Dr. Justin C. Matus</strong> serves as Managing Editor for <em>The Transnational Journal of Business</em>.
+                </p>
+                <p>
+                    <a href="/members/group_content_view.asp?group=143359&id=603173">See His Full Bio Here</a>.
+                </p>
+            </div><!-- /.column -->
+            <div class="col-sm-4">
+                <p style="text-align: center;">
+                    <a href="/members/group_content_view.asp?group=143359&id=603173">
+                        <img src="/resource/resmgr/images/tjb/tjb_me_justin_matus_light_bl.jpg" alt="Dr. Justin Matus, Co-Managing Editor, TJB" title="Dr. Justin Matus, Co-Managing Editor, TJB">
+                    </a>
+                </p>
+            </div><!-- /.column -->
+        </div><!-- /.row -->
+    </div><!-- /.section -->
+
+    <!-- Focus and Scope -->
+    <div class="container lp_section">
+        <div class="row vertical-divider">
+            <div class="col-sm-6">
+                <h3>Focus and Scope</h3>
+                <p>
+                    <em>The Transnational Journal of Business</em> (TJB) is a peer-reviewed interdisciplinary and international journal published by the Accreditation Council for Business Schools and Programs (ACBSP). The TJB publishes manuscripts that link teaching and research to enhance student learning outcomes. More specifically, the <em>Journal</em> is interested in interdisciplinary research that promotes teaching excellence in the various academic disciplines of business to include all theoretical and applied domains.
+                </p>
+            </div><!-- /.column -->
+            <div class="col-sm-6">
+                <h3>Mission Statement</h3>
+                <p>
+                    The mission of the TJB is to provide a forum for a dialogue to advance teaching excellence through research across the disciplines in business. To this end, the TJB welcomes manuscripts from all ACBSP individual members. The goal is to facilitate a linkage between teaching and research at member institutions.
+                </p>
+            </div><!-- /.column -->
+        </div><!-- /.row -->
+    </div><!-- /.section -->
+
+    <!-- Annual Edition -->
+    <div class="container lp_section">
+        <div class="row">
+            <div class="col-sm-12">
+                <h3><em>A History of Scholarly Work — ACBSP Annual Edition</em></h3>
+                <p>
+                    ACBSP published three volumes of the scholarly journal <em>ACBSP Annual Edition</em>, between 2010-12. The fundamental objective of the first journal was to provide a venue for ACBSP members and others to present their research and findings, engage in scholarly research and inquiry, and support and improve classroom teaching. Articles featured in each of the three volumes went through a rigorous double-blind peer review process prior to final acceptance for publication.
+                </p>
+            </div><!-- /.column -->
+        </div><!-- /.row -->
+        <div class="row">
+            <div class="col-sm-4">
+                <a href="/resource/collection/A04D586B-B128-4097-A27C-DD1B7E857831/2010_ACBSP_Annual_Edition,_Volume_1.pdf" title="Volume 1, ACBSP Annual Edition" target="_blank" class="lp_cover_thumbnail"><img src="/resource/resmgr/images/tjb/acbsp_annual_editition_v01_c.jpg" alt="ACBSP Annual Edition: Vol. 1" title="ACBSP Annual Edition: Vol. 1" /><em>ACBSP Annual Edition: <br/>Vol. 1</em></a>
+            </div><!-- /.column -->
+            <div class="col-sm-4">
+                <a href="/resource/collection/A04D586B-B128-4097-A27C-DD1B7E857831/ACBSP_Annual_Edition,_Volume_II,_Managing_Business_Education_in_the_New_Fiscal_Reality.pdf" title="Volume 2, ACBSP Annual Edition" target="_blank" class="lp_cover_thumbnail"><img src="/resource/resmgr/images/tjb/acbsp_annual_editition_v02_c.jpg" alt="ACBSP Annual Edition: Vol. 2" title="ACBSP Annual Edition: Vol. 2" /><em>ACBSP Annual Edition: <br/>Vol. 2</em></a>
+            </div><!-- /.column -->
+            <div class="col-sm-4">
+                <a href="/resource/collection/A04D586B-B128-4097-A27C-DD1B7E857831/ACBSP_Annual_Edition_Volume_3.pdf" title="Volume 3, ACBSP Annual Edition" target="_blank" class="lp_cover_thumbnail"><img src="/resource/resmgr/images/tjb/acbsp_annual_editition_v03_c.jpg" alt="ACBSP Annual Edition: Vol. 3" title="ACBSP Annual Edition: Vol. 3" /><em>ACBSP Annual Edition: <br/>Vol. 3</em></a>
+            </div><!-- /.column -->
+        </div><!-- /.row -->
+    </div><!-- /.section -->
+
+    <!-- Evolving the Scholarly Journal -->
+    <div class="container lp_section">
+        <div class="row">
+            <div class="col-sm-12">
+                <h3>Evolving the Scholarly Journal</h3>
+                <p>
+                    In 2013, a decision was made to cease publication of the <em>ACBSP Annual Edition</em> and create a scholarly journal with a new name, <em>The Transnational Journal of Business</em>. A Scholar-Practitioner Publications Committee was formed, comprised of ACBSP members who serve as the Editorial Policy Board for the TJB.
+                </p>
+                <p>
+                    <strong><em>The Transnational Journal of Business</em> <a href="http://www.acbsp.org/members/group_content_view.asp?group=143359&id=603322"> archives can be found here</a>.</strong> Digital copies of both Vol. 1 and Vol. 2 are free to download. Printed copies are $20 (including S&H); contact ACBSP to order.
+                </p>
+                <p>
+                    <a href="http://www.acbsp.org/members/group_content_view.asp?group=143359&id=603322" class="hp-btn">View Archives</a>
+                </p>
+            </div><!-- /.column -->
+        </div><!-- /.row -->
+    </div><!-- /.section -->
+</div><!-- /#tjb_lp -->
